@@ -11538,5 +11538,12 @@ form fieldset legend {
     transform: perspective(800px) rotateX(0);
   }
 }
+.section-404 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 /*# sourceMappingURL=style.css.map */
