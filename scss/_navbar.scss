@@ -1,0 +1,50 @@
+/* NAVBAR */
+.navbar {
+  &--color {
+    background-image: linear-gradient(#a4abae, #222222);
+  }
+
+  @media (max-width: $widthScreenMedium) {
+    &__menu {
+      justify-content: center !important;
+    }
+  }
+
+  &__text-link--primary {
+    color: $primaryColor !important;
+    padding-bottom: 0;
+  }
+
+  &__text-link--secondary {
+    color: $secondaryColor !important;
+    padding-top: 0;
+    text-decoration: overline;
+  }
+}
+
+.button {
+  &--background {
+    background-color: #a4abae;
+    opacity: 0.5;
+  }
+}
+
+.button:hover {
+  opacity: 0.2;
+}
+
+.navbar-brand {
+  margin-right: 0;
+}
+
+.list {
+  justify-content: end;
+
+  &__link {
+    color: $primaryColor !important;
+  }
+
+  &__link:hover {
+    opacity: 0.5;
+  }
+}

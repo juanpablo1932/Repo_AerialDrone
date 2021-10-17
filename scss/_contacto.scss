@@ -1,0 +1,60 @@
+form fieldset label {
+  color: #a4abae;
+  font-weight: bold;
+}
+
+form fieldset legend {
+  color: #ffc900;
+  font-weight: bold;
+  font-size: 1.3rem;
+  letter-spacing: 0.5px;
+}
+
+/* Contacto */
+.formContact {
+  margin: 6.7rem;
+}
+
+.formContent {
+  display: grid;
+  justify-content: center;
+}
+
+.legendForm {
+  @extend .labelVideoGallery;
+  text-align: center;
+}
+
+.colForm1 {
+  width: 100%;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+}
+
+.colForm1 label {
+  text-align: center;
+}
+
+.colForm2 {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+}
+
+.colForm2 label {
+  text-align: center;
+}
+
+.colForm3 {
+  width: 50%;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+}
+
+.colForm3 input {
+  margin: 5px;
+}

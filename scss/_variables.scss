@@ -1,0 +1,20 @@
+$primaryColor: #ffc900;
+$secondaryColor: #222222;
+$thirdColor: #a4abae;
+$titleSize: 2.5rem;
+$subtitleSize: 1.5rem;
+$shadowPrimaryColor: #ffc8004e;
+$shadowThirdColor: #a4abae0f;
+$boxShadow: 5px 5px 10px -1px;
+$widthScreenMedium: 991.98px;
+$redes: (
+  facebook-f: #3a5795,
+  instagram: #e1306c,
+  youtube: red,
+);
+@mixin sizes($width, $padding) {
+  width: $width;
+  padding: $padding;
+}
+$fourthColor: #464646;
+$h1Size: 1.75rem;

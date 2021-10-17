@@ -1,0 +1,33 @@
+/* FOOTER */
+.footer {
+  background-image: linear-gradient(to top, #a4abae, #222222);
+  &__text {
+    color: $secondaryColor;
+  }
+  &__text--third {
+    color: $thirdColor;
+  }
+  &__text--primary {
+    color: $primaryColor;
+  }
+  &__text--margin {
+    margin: auto 0;
+  }
+}
+
+@each $red, $color in $redes {
+  .fa-#{$red} {
+    color: $color;
+  }
+}
+
+.breadcrumb {
+  margin-left: 1%;
+  &__home {
+    color: $primaryColor;
+    font-weight: bold;
+  }
+  &-item {
+    color: $secondaryColor !important;
+  }
+}

@@ -1,0 +1,38 @@
+/* Photos */
+.containerPhotos {
+  display: grid;
+}
+
+@for $i from 1 through 6 {
+  .button-#{$i} {
+    background-color: $primaryColor !important;
+  }
+}
+
+.rowPhotoGallery {
+  width: 50%;
+  justify-self: center;
+}
+
+.labelPhotoGallery,
+.labelVideoGallery {
+  color: #ffc900;
+  margin: 6% auto 3% auto;
+  text-transform: uppercase;
+  font-size: $h1Size;
+  text-decoration: underline;
+}
+
+@each $service in Photo, Video {
+  .label#{$service}Gallery {
+    word-spacing: 10px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .rowVideos {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

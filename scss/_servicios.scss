@@ -1,0 +1,74 @@
+/* Servicios */
+.labelFeatures {
+  @extend .labelVideoGallery;
+}
+.tableServices {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 5rem;
+}
+
+.tableProduct {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20%;
+}
+
+.tableProduct h3 {
+  margin: 2rem;
+  text-align: center;
+  color: #ffc900;
+  text-transform: uppercase;
+}
+
+.tableProduct p {
+  margin: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.tableExtension h3 {
+  margin: 2rem;
+  text-align: center;
+  color: #ffc900;
+  text-transform: uppercase;
+}
+
+.tableExtension p {
+  margin: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.tableFeatures h3 {
+  margin: 2rem;
+  text-align: center;
+  color: #ffc900;
+  text-transform: uppercase;
+}
+
+.tableFeatures ol {
+  margin: 2rem;
+  list-style-position: inside;
+}
+
+.tableExtension {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tableFeatures {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 20%;
+}
+
+.listFeatures {
+  width: auto;
+  height: 9%;
+  color: white;
+}

@@ -1,0 +1,86 @@
+/* MAIN */
+.main {
+  margin-bottom: 4%;
+
+  .services {
+    &__label {
+      word-spacing: 10px;
+      color: #ffc900;
+      text-align: center;
+      margin: 4rem auto 3rem auto;
+      text-transform: uppercase;
+      font-size: $titleSize;
+      text-decoration: underline;
+    }
+  }
+}
+
+.paragraph {
+  font-size: 1.1rem;
+  color: white;
+  &__description {
+    text-align: justify;
+    line-height: 1.4;
+    margin: 5% 0 5% 0;
+    font-size: 1.2rem;
+  }
+
+  &__wordkey {
+    color: $primaryColor;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  &__wordkey--size {
+    font-size: 1.2rem;
+  }
+
+  &__wordkey--normal {
+    font-style: normal;
+  }
+}
+
+.video {
+  &__index {
+    width: 50%;
+    min-width: 350px;
+    transition: all 1.5s;
+  }
+
+  &__index:hover {
+    transform: scale(1.05);
+  }
+
+  &__index--border {
+    border-style: solid;
+    color: $thirdColor;
+    border-radius: 5px;
+  }
+}
+
+.card {
+  background-color: #222222;
+  box-shadow: $boxShadow $shadowPrimaryColor;
+
+  &__title {
+    font-size: $subtitleSize;
+    color: $primaryColor;
+  }
+}
+
+.customers {
+  &__label {
+    @extend .services__label;
+  }
+  &__logos {
+    text-align: center;
+  }
+  &__logo {
+    @include sizes(150px, 1rem);
+    transition: all 1s;
+    box-shadow: $boxShadow $shadowThirdColor;
+  }
+  &__logo:hover {
+    transform: scale(1.1);
+  }
+}
