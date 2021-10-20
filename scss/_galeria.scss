@@ -3,6 +3,10 @@
   display: grid;
 }
 
+.carousel {
+  min-width: 350px;
+}
+
 @for $i from 1 through 6 {
   .button-#{$i} {
     background-color: $primaryColor !important;

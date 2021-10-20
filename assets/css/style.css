@@ -11355,6 +11355,10 @@ form fieldset legend {
   display: grid;
 }
 
+.carousel {
+  min-width: 350px;
+}
+
 .button-1 {
   background-color: #ffc900 !important;
 }
