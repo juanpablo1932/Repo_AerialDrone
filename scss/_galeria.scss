@@ -23,6 +23,13 @@
   text-decoration: underline;
 }
 
+.video {
+  &__gallery {
+    width: 45%;
+    min-width: 350px;
+  }
+}
+
 @each $service in Photo, Video {
   .label#{$service}Gallery {
     word-spacing: 10px;

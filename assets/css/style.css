@@ -11395,6 +11395,11 @@ form fieldset legend {
   text-decoration: underline;
 }
 
+.video__gallery {
+  width: 45%;
+  min-width: 350px;
+}
+
 .labelPhotoGallery {
   word-spacing: 10px;
   text-align: center;
