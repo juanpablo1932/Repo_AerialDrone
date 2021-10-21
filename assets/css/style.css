@@ -11425,14 +11425,12 @@ form fieldset legend {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin: 5rem;
 }
 
 .tableProduct {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-left: 20%;
 }
 
 .tableProduct h3, .tableProduct .h3 {
@@ -11448,6 +11446,12 @@ form fieldset legend {
   color: white;
 }
 
+.tableExtension {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .tableExtension h3, .tableExtension .h3 {
   margin: 2rem;
   text-align: center;
@@ -11461,6 +11465,12 @@ form fieldset legend {
   color: white;
 }
 
+.tableFeatures {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .tableFeatures h3, .tableFeatures .h3 {
   margin: 2rem;
   text-align: center;
@@ -11468,28 +11478,12 @@ form fieldset legend {
   text-transform: uppercase;
 }
 
-.tableFeatures ol {
-  margin: 2rem;
-  list-style-position: inside;
-}
-
-.tableExtension {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.tableFeatures {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-right: 20%;
-}
-
 .listFeatures {
   width: auto;
   height: 9%;
   color: white;
+  margin: 2rem;
+  list-style-position: inside;
 }
 
 .temporary__title {
