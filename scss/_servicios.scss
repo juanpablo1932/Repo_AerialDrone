@@ -1,70 +1,77 @@
 /* Servicios */
+.card__service {
+  // display: inline-block;
+  // width: 50%;
+  min-width: 350px;
+}
+
 .labelFeatures {
-  @extend .labelVideoGallery;
-}
-.tableServices {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  color: #ffc900;
+  text-transform: uppercase;
+  font-size: $h1Size;
+  text-decoration: underline;
 }
 
-.tableProduct {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  // margin-left: 20%;
-}
+// .tableServices {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-evenly;
+// }
 
-.tableProduct h3 {
-  margin: 2rem;
+// .tableProduct {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+// }
+
+.card__subtitle {
   text-align: center;
   color: #ffc900;
   text-transform: uppercase;
 }
 
-.tableProduct p {
-  margin: 2rem;
-  text-align: center;
-  color: white;
-}
-
-.tableExtension {
+.col__services {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
 }
 
-.tableExtension h3 {
-  margin: 2rem;
-  text-align: center;
-  color: #ffc900;
-  text-transform: uppercase;
-}
+// .paragraph__service {
+//   text-align: center;
+//   color: white;
+// }
 
-.tableExtension p {
-  margin: 2rem;
-  text-align: center;
-  color: white;
-}
+// .tableExtension {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+// }
 
-.tableFeatures {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  // margin-right: 20%;
-}
-
-.tableFeatures h3 {
-  margin: 2rem;
-  text-align: center;
-  color: #ffc900;
-  text-transform: uppercase;
-}
+// .tableFeatures {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+// }
 
 .listFeatures {
-  width: auto;
-  height: 9%;
+  width: 100%;
   color: white;
-  margin: 2rem;
-  list-style-position: inside;
+  list-style-type: none;
+  display: inline;
+  margin-bottom: 0;
+}
+
+@media (max-width: 767.98px) {
+  .col__services,
+  .card__subtitle {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 474.98px) {
+  .col__services,
+  .card__subtitle {
+    font-size: 0.7rem;
+  }
 }

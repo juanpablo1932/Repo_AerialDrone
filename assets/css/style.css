@@ -11390,7 +11390,6 @@ form fieldset legend {
 
 .labelPhotoGallery,
 .labelVideoGallery,
-.labelFeatures,
 .legendForm {
   color: #ffc900;
   margin: 6% auto 3% auto;
@@ -11409,7 +11408,7 @@ form fieldset legend {
   text-align: center;
 }
 
-.labelVideoGallery, .labelFeatures, .legendForm {
+.labelVideoGallery, .legendForm {
   word-spacing: 10px;
   text-align: center;
 }
@@ -11421,71 +11420,50 @@ form fieldset legend {
   }
 }
 /* Servicios */
-.tableServices {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+.card__service {
+  min-width: 350px;
 }
 
-.tableProduct {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.labelFeatures {
+  color: #ffc900;
+  text-transform: uppercase;
+  font-size: 1.75rem;
+  text-decoration: underline;
 }
 
-.tableProduct h3, .tableProduct .h3 {
-  margin: 2rem;
+.card__subtitle {
   text-align: center;
   color: #ffc900;
   text-transform: uppercase;
 }
 
-.tableProduct p {
-  margin: 2rem;
-  text-align: center;
-  color: white;
-}
-
-.tableExtension {
+.col__services {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.tableExtension h3, .tableExtension .h3 {
-  margin: 2rem;
-  text-align: center;
-  color: #ffc900;
-  text-transform: uppercase;
-}
-
-.tableExtension p {
-  margin: 2rem;
-  text-align: center;
-  color: white;
-}
-
-.tableFeatures {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.tableFeatures h3, .tableFeatures .h3 {
-  margin: 2rem;
-  text-align: center;
-  color: #ffc900;
-  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
 }
 
 .listFeatures {
-  width: auto;
-  height: 9%;
+  width: 100%;
   color: white;
-  margin: 2rem;
-  list-style-position: inside;
+  list-style-type: none;
+  display: inline;
+  margin-bottom: 0;
 }
 
+@media (max-width: 767.98px) {
+  .col__services,
+.card__subtitle {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 474.98px) {
+  .col__services,
+.card__subtitle {
+    font-size: 0.7rem;
+  }
+}
 .temporary__title {
   color: #ffc900;
   font-weight: bold;
