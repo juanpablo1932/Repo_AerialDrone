@@ -1,6 +1,6 @@
 /* Servicios */
 .card__service {
-  min-width: 350px;
+  min-width: 330px;
 }
 
 .labelFeatures {
@@ -42,5 +42,12 @@
   .col__services,
   .card__subtitle {
     font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 398.98px) {
+  .col__services,
+  .card__subtitle {
+    font-size: 0.59rem;
   }
 }

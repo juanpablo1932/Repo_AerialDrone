@@ -11239,7 +11239,7 @@ textarea.form-control-lg {
 
 .video__index {
   width: 50%;
-  min-width: 350px;
+  min-width: 330px;
   transition: all 1.5s;
 }
 .video__index:hover {
@@ -11421,7 +11421,7 @@ form fieldset legend {
 }
 /* Servicios */
 .card__service {
-  min-width: 350px;
+  min-width: 330px;
 }
 
 .labelFeatures {
@@ -11462,6 +11462,12 @@ form fieldset legend {
   .col__services,
 .card__subtitle {
     font-size: 0.7rem;
+  }
+}
+@media (max-width: 398.98px) {
+  .col__services,
+.card__subtitle {
+    font-size: 0.59rem;
   }
 }
 .temporary__title {
