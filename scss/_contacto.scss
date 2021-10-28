@@ -25,7 +25,7 @@ form fieldset legend {
   text-align: center;
 }
 
-.colForm1 {
+.col__form1 {
   width: 100%;
   justify-self: center;
   display: flex;
@@ -33,21 +33,21 @@ form fieldset legend {
   margin: 2%;
 }
 
-.colForm1 label {
+.col__form1 label {
   text-align: center;
 }
 
-.colForm2 {
+.col__form2 {
   display: flex;
   flex-direction: column;
   margin: 2%;
 }
 
-.colForm2 label {
+.col__form2 label {
   text-align: center;
 }
 
-.colForm3 {
+.col__form3 {
   width: 50%;
   justify-self: center;
   display: flex;
@@ -55,6 +55,6 @@ form fieldset legend {
   margin: 2%;
 }
 
-.colForm3 input {
+.col__form3 input {
   margin: 5px;
 }
