@@ -11376,6 +11376,7 @@ a {
 
 .labelPhotoGallery,
 .labelVideoGallery,
+.ecommerce__label,
 .form__legend {
   color: #ffc900;
   margin: 6% auto 3% auto;
@@ -11394,7 +11395,7 @@ a {
   text-align: center;
 }
 
-.labelVideoGallery, .form__legend {
+.labelVideoGallery, .ecommerce__label, .form__legend {
   word-spacing: 10px;
   text-align: center;
 }
@@ -11456,11 +11457,8 @@ a {
     font-size: 0.59rem;
   }
 }
-.temporary__title {
-  color: #ffc900;
-  font-weight: bold;
-  text-align: center;
-  margin: 10% auto;
+.ecommerce__description {
+  opacity: 0;
 }
 
 .card--size {
@@ -11477,6 +11475,11 @@ a {
 }
 
 @media (min-width: 991.98px) {
+  .ecommerce__description {
+    color: white;
+    opacity: 1;
+  }
+
   .card__ecommerce {
     box-shadow: none;
   }

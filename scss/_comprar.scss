@@ -1,8 +1,9 @@
-.temporary__title {
-  color: $primaryColor;
-  font-weight: bold;
-  text-align: center;
-  margin: 10% auto;
+.ecommerce__label {
+  @extend .labelVideoGallery;
+}
+
+.ecommerce__description {
+  opacity: 0;
 }
 
 .card {
@@ -24,6 +25,10 @@
 }
 
 @media (min-width: $widthScreenMedium) {
+  .ecommerce__description {
+    color: white;
+    opacity: 1;
+  }
   .card {
     &__ecommerce {
       box-shadow: none;
