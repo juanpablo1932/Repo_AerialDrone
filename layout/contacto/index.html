@@ -83,7 +83,7 @@
             <fieldset class="form__content">
               <h1 class="form__legend">Formulario de contacto</h1>
               <div class="col__form1">
-                <label for="nombre">Nombre:</label>
+                <label class="form__label" for="nombre">Nombre:</label>
                 <input
                   type="text"
                   name="nombre"
@@ -91,7 +91,7 @@
                   placeholder="Ponga su nombre"
                   required
                 />
-                <label for="apellido">Apellido:</label>
+                <label class="form__label" for="apellido">Apellido:</label>
                 <input
                   type="text"
                   name="apellido"
@@ -99,26 +99,26 @@
                   placeholder="Ponga su apellido"
                   required
                 />
-                <label for="email">e-mail:</label>
+                <label class="form__label" for="email">e-mail:</label>
                 <input
                   type="email"
                   name="email"
                   id="email"
                   placeholder="Ponga su e-mail"
                 />
-                <label for="genero">Genero</label>
+                <label class="form__label" for="genero">Genero</label>
                 <select name="genero" id="genero">
                   <option value="H">Hombre</option>
                   <option value="M">Mujer</option>
                   <option value="N">No me catalogo</option>
                 </select>
-                <label for="aceptar"
+                <label class="form__label" for="aceptar"
                   >Quiero recibir noticias y promociones a mi e-mail</label
                 >
                 <input type="checkbox" name="aceptar" id="aceptar" value="1" />
               </div>
               <div class="col__form2">
-                <label for="mensaje">¿Tienes algún comentario?</label>
+                <label class="form__label" for="mensaje">¿Tienes algún comentario?</label>
                 <textarea
                   name="mensaje"
                   id="mensaje"
@@ -127,8 +127,8 @@
                 ></textarea>
               </div>
               <div class="col__form3">
-                <input type="submit" value="ENVIAR" />
-                <input type="reset" value="BORRAR" />
+                <input class="form__button" type="submit" value="ENVIAR" />
+                <input class="form__button" type="reset" value="BORRAR" />
               </div>
               <input type="hidden" name="_next" value="https://juanpablo1932.github.io/Repo_AerialDrone/index.html">
               <input type="hidden" name="_subject" value="Contacto aerialdrone.com" >
