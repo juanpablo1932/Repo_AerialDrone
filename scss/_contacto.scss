@@ -11,16 +11,16 @@ form fieldset legend {
 }
 
 /* Contacto */
-.formContact {
+.form__contact {
   margin: 6.7rem;
 }
 
-.formContent {
+.form__content {
   display: grid;
   justify-content: center;
 }
 
-.legendForm {
+.form__legend {
   @extend .labelVideoGallery;
   text-align: center;
 }

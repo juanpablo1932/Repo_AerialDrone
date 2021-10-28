@@ -11303,16 +11303,16 @@ form fieldset legend {
 }
 
 /* Contacto */
-.formContact {
+.form__contact {
   margin: 6.7rem;
 }
 
-.formContent {
+.form__content {
   display: grid;
   justify-content: center;
 }
 
-.legendForm {
+.form__legend {
   text-align: center;
 }
 
@@ -11390,7 +11390,7 @@ form fieldset legend {
 
 .labelPhotoGallery,
 .labelVideoGallery,
-.legendForm {
+.form__legend {
   color: #ffc900;
   margin: 6% auto 3% auto;
   text-transform: uppercase;
@@ -11408,7 +11408,7 @@ form fieldset legend {
   text-align: center;
 }
 
-.labelVideoGallery, .legendForm {
+.labelVideoGallery, .form__legend {
   word-spacing: 10px;
   text-align: center;
 }
