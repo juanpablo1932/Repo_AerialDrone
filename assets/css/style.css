@@ -11119,6 +11119,18 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.section-404 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title__404 {
+  color: #ffc900;
+}
+
 /* NAVBAR */
 .navbar--color {
   background-image: linear-gradient(#a4abae, #222222);
@@ -11524,17 +11536,6 @@ a {
   .card:hover .card__body {
     transform: perspective(800px) rotateX(0);
   }
-}
-.section-404 {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.title__404 {
-  color: #ffc900;
 }
 
 /*# sourceMappingURL=style.css.map */
