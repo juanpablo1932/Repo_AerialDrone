@@ -1,3 +1,7 @@
+.ecommerce__link {
+  color: $primaryColor;
+}
+
 .ecommerce__label {
   @extend .labelVideoGallery;
 }
@@ -28,6 +32,9 @@
   .ecommerce__description {
     color: white;
     opacity: 1;
+    &--size {
+      font-size: 1rem;
+    }
   }
   .card {
     &__ecommerce {

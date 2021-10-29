@@ -11457,6 +11457,10 @@ a {
     font-size: 0.59rem;
   }
 }
+.ecommerce__link {
+  color: #ffc900;
+}
+
 .ecommerce__description {
   opacity: 0;
 }
@@ -11478,6 +11482,9 @@ a {
   .ecommerce__description {
     color: white;
     opacity: 1;
+  }
+  .ecommerce__description--size {
+    font-size: 1rem;
   }
 
   .card__ecommerce {
