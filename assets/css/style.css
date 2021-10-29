@@ -11372,6 +11372,7 @@ a {
 .rowPhotoGallery {
   width: 50%;
   justify-self: center;
+  box-shadow: 5px 5px 10px -1px #ffc8004e;
 }
 
 .labelPhotoGallery,
@@ -11388,6 +11389,9 @@ a {
 .video__gallery {
   width: 45%;
   min-width: 350px;
+  border-style: solid;
+  color: #a4abae;
+  border-radius: 5px;
 }
 
 .labelPhotoGallery {

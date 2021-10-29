@@ -16,6 +16,7 @@
 .rowPhotoGallery {
   width: 50%;
   justify-self: center;
+  box-shadow: $boxShadow $shadowPrimaryColor;
 }
 
 .labelPhotoGallery,
@@ -31,6 +32,9 @@
   &__gallery {
     width: 45%;
     min-width: 350px;
+    border-style: solid;
+    color: $thirdColor;
+    border-radius: 5px;
   }
 }
 
